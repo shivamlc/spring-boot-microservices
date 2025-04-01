@@ -1,3 +1,5 @@
+--  use schema.sql if we only need to declare tables in database
+-- use data.sql if we need to populate tables with data
 CREATE TABLE IF NOT EXISTS `customer` (
   `customer_id` int AUTO_INCREMENT  PRIMARY KEY,
   `name` varchar(100) NOT NULL,
