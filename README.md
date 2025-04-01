@@ -1,7 +1,8 @@
 # spring-boot-microservices
 
 ## Notes
-- When to specify `driver-class-name`
+
+**When to specify `driver-class-name`**
 
 If you are using Spring Boot with JPA, you do not need to explicitly specify `driver-class-name`: `org.h2.Driver` in most cases. Spring Boot can automatically detect the correct driver based on the JDBC URL.
 
